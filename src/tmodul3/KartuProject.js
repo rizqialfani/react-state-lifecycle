@@ -9,11 +9,10 @@ import '../App.css';
 
 const { Title } = Typography;
 
-function Kartu(props) {
+function Kartu2(props) {
     return (
         <div>
-            <Title level={4}>{props.nama}</Title>
-            <Title level={4} style={{ marginTop: '0' }}>{props.nim}</Title>
+            <Title level={4}>{props.judul}</Title>
             <Button 
                 type="text" 
                 size="large" 
@@ -61,4 +60,4 @@ export default class Kartu44 extends Component {
 
         );
     }
-} 
+}
